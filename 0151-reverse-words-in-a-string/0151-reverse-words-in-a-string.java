@@ -1,6 +1,8 @@
 class Solution {
     public String reverseWords(String s) {
         s=s.trim();
+        
+        //take care of this bawasir split ke ander wala + bc
         String[]arr=s.split(" +");
         String ans="";
         int n=arr.length;
