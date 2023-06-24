@@ -1,5 +1,11 @@
 class Solution {
     public int maxSubArray(int[] nums) {
+// Input
+// [1]
+// Output               ==>>if beat_sum initoalize with Integer.MIN_VALUE
+// -2147483648
+// Expected
+// 1
         //variable sum which store the sum  of value of array
         int sum = nums[0];
         //beatsum
