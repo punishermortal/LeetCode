@@ -27,9 +27,8 @@ class Solution {
         int r=row-1;
         double ans=1;
         for(int i=1;i<=r;i++){
-            ans=ans*(N-r+i)/i;
-            
+            ans=ans*(N-r+i)/i; 
         }
-        return (int)(ans);
+        return (int)ans;
     }
 }
